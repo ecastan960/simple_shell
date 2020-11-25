@@ -21,6 +21,7 @@ void _print(char *strp);
 char **_input(void);
 void _exec(char *com, char **command);
 
+/*ADV*/
 static char *aux_ptr = NULL;
 #define SIZE_OF_STRING 256 
 #define SIZE_OF_DELIMITER 3
