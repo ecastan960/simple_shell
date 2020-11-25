@@ -47,18 +47,4 @@ char *mystrtok(char *str, char *delim)
     }
     return NULL;
 }
-
-int main()
-{
-    char str[SIZE_OF_STRING] = "You motherfucker yeah su fuck cuac knock tok war chaos";
-    char *tok = NULL;
-    char del[SIZE_OF_DELIMITER] = " ";
-
-    tok = mystrtok(str, del);
-    while (tok != NULL) 
-	{       
-        printf("%s\n", tok);
-        tok = mystrtok(NULL, del);
-    }
-    return 0;
-}
+/*try1*/
