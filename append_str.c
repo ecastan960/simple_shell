@@ -17,7 +17,7 @@ char *append_str(const char *str1, const char *str2)
 	size2 = str_size(str2);
 
 	strA = (char *)malloc((size1 + size2) * sizeof(char));
-	for (i = 0;i < (size2 + size1 + 1); i++)
+	for (i = 0; i < (size2 + size1 + 1); i++)
 	{
 		if (i < size1)
 			strA[i] = str1[i];
