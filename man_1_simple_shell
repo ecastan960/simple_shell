@@ -1,0 +1,30 @@
+.TH hsh 1 "24 Nov 2020" "1.0" "Simple Shell Project"
+
+.SH NAME
+B. hsh - Command line interpreter
+
+.SH SYNOPSIS
+.B ./hsh $
+[command [args...][file]]
+
+.SH DESCRIPTION
+.B hsh
+It's a command lenguage interpreter that takes input to executes commands.
+
+.SH COPYRIGHT
+    Public Domain, no copyright protection
+
+.RS 3
+/////////
+.RS 0
+#######
+.RS 0
+&&&&&&&&&&
+.SH OPTIONS
+******
+.SH SEE ALSO
+$$$$$$$$
+.SH BUGS
+No known bugs
+.SH AUTHOR
+Esteban Castaño, Johan Balbin
