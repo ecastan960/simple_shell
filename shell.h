@@ -9,6 +9,7 @@
 #include <string.h>
 #include <limits.h>
 #include <sys/wait.h>
+#include <signal.h>
 extern char **environ;
 
 void prompt(void);
@@ -20,5 +21,6 @@ char **_path(void);
 void _print(char *strp);
 char **_input(void);
 void _exec(char *com, char **command);
+void handle_C(int __attribute__((unused)) a);
 
 #endif
