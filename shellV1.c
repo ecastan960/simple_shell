@@ -10,6 +10,7 @@ int main(void)
 	int i = 0, j = 0, k = 0;
 
 	str_env = _path();
+	signal(SIGINT, &handle_C);
 	while (1)
 	{
 		command = _input();
