@@ -4,13 +4,14 @@
  * Return: 0
  */
 
-int main(void)
-{/**
+int main(__attribute__((unused))int argc, char**argv)
+{
 	char *str_check = NULL, **str_env,  **command;
-	int i = 0, j = 0, k = 0;
+	size_t j = 1, k = TRUE;
+	int i = 0, 
 
 	str_env = _path();
-	signal(SIGINT, &handle_C);
+	signal(SIGINT, handle_C);
 	while (1)
 	{
 		command = _input();
@@ -37,4 +38,4 @@ int main(void)
 		k = 0, i = 0, j = 0;
 	}
 	return (0);
-*/}
+}
