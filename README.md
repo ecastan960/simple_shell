@@ -28,6 +28,17 @@ It's a project of a basic command line interpreter that takes input to executes 
 
 Simple shell was built and tasted in the Ubuntu 14.04 LTS via Vagrant in VirtualBox and compiled with GCC version 4.8.4
 
+## EXAMPLES
+
+> Input:
+>
+> $ echo "qwerty" | ./hsh
+> 
+> Output:
+>
+> error: not found
+
+
 
 
 
