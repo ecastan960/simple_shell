@@ -12,19 +12,28 @@ B. hsh - Command line interpreter
 It's a command lenguage interpreter that takes input to executes commands.
 
 .SH COPYRIGHT
-    Public Domain, no copyright protection
+Public Domain, no copyright protection
 
-.RS 3
-/////////
-.RS 0
-#######
-.RS 0
-&&&&&&&&&&
+.SH INVOCATION
+Compile simple_shell with the GNU Compiler Collection, using gcc plus the below flags:
+.P
+.RS
+.B $ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+.P
+
+.SH ARGUMENTS
+The first argument read from standrd input assumed to be a command and folllowing arguments are its parameters. 
+
+.SH RETURN VALUE
+The command return value is its exit status that is usually 0.
+
+.SH EXECUTE COMMAND
+Commands are executed in a child process of the main process.
+
 .SH OPTIONS
-******
-.SH SEE ALSO
-$$$$$$$$
+
 .SH BUGS
 No known bugs
-.SH AUTHOR
+
+.SH AUTHORS
 Esteban Castaño, Johan Balbin

@@ -23,4 +23,9 @@ char **_input(void);
 void _exec(char *com, char **command);
 void handle_C(int __attribute__((unused)) a);
 
+
+/*Bxx*/
+
+void *my_calloc(size_t elem, size_t size);
+#define TRUE 1
 #endif
