@@ -11,7 +11,6 @@ char **_input(void)
 	size_t bufsize = 32;
 
 	command = (char **)malloc(bufsize * sizeof(char));
-	prompt();
 	chars = getline(&buffer, &bufsize, stdin);
 	if (chars == -1)
 		exit(1);
