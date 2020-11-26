@@ -12,7 +12,7 @@ B. hsh - Command line interpreter
 It's a command lenguage interpreter that takes input to executes commands.
 
 .SH COPYRIGHT
-    Public Domain, no copyright protection
+Public Domain, no copyright protection
 
 .SH INVOCATION
 Compile simple_shell with the GNU Compiler Collection, using gcc plus the below flags:
