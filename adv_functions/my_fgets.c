@@ -1,13 +1,13 @@
-char *my_fgets(char str[], int bytes, FILE *fp) 
+char *my_fgets(char str[], int x, FILE *fp) 
 {
     int c, i = 0;
 
-    if (bytes <= 0)
+    if (x <= 0)
     {
         return str;
     }
 
-    while (i < bytes - 1 && ((c = getc(fp)) != EOF))
+    while (i < x - 1 && ((c = getc(fp)) != EOF))
     {
             str[i++] = c;
             if (c == '\n')
