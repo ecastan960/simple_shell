@@ -9,7 +9,7 @@ char *my_fgets(char str[], int bytes, FILE *fp)
 
     while (i < bytes - 1 && ((c = getc(fp)) != EOF))
     {
-            my_string[i++] = c;
+            str[i++] = c;
             if (c == '\n')
             break;
     }
