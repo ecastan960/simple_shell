@@ -18,7 +18,18 @@ It's a project of a basic command line interpreter that takes input to executes 
 
 - Compile with gcc
 
-> gcc -Wall -Werror -wextra -pedantic -o
+> gcc -Wall -Werror -wextra -pedantic -o hsh
+
+- Execute
+
+> ./hsh
+
+## ENVIROMENT
+
+Simple shell was built and tasted in the Ubuntu 14.04 LTS via Vagrant in VirtualBox and compiled with GCC version 4.8.4
+
+
+
 
 
 
