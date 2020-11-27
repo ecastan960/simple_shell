@@ -34,6 +34,7 @@ Commands are executed in a child process of the main process.
 
 .SH BUGS
 Non interactive mode it's still non functional
+Error when press Enter without characters
 
 .SH AUTHORS
 Esteban Castaño, Johan Balbin
