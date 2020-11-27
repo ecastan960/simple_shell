@@ -32,16 +32,10 @@ Simple shell was built and tasted in the Ubuntu 14.04 LTS via Vagrant in Virtual
 
 > Input:
 >
-> $ echo "qwerty" | ./hsh
+> [JBalbin_EZ_Shell]$/bin/ls
 > 
 > Output:
 >
-> error: not found
-
-
-
-
-
-
-
-
+> AUTHORS _input.c adv_functions file.error  man_1_simple_shell shellV1.c tests
+> _exec.c _print.c compar_str.c  hsh shell.h str_size.c         _getenv.c file
+> 
